@@ -118,13 +118,14 @@ public class QuickSort
 	int[] test;
 	String out = "";
 	long avg;
-	for ( int i = 0; i < 51; i++) {
+	int arrays, size = 10;
+	for ( arrays = 0; arrays < 51; arrays++) {
 
 	    out = "";
 	    avg = 0;
-	    test = new int[11];
+	    test = new int[size];
 	    for( int j = 0; j < test.length; j++ ) {
-		test[j] = (int)( 48 * Math.random());
+		test[j] = (int)( 51 * Math.random());
 	    }
 	    shuffle(test);
 
