@@ -1,4 +1,4 @@
-// Aaron Li
+// Team baconEggNCheese -- Aaron Li, George Liang, Jackie Li
 // APCS2 pd8
 // HW18 -- So So Quick
 // 2018-03-12
@@ -88,7 +88,7 @@ public class QuickSort
 	    }
 	} swap(pos + 1, right, arr); // pivot element gets put at its appropriate location
 	//System.out.println("Pivot: " + arr[pos + 1] + "\n"); // shows the pivot element used at its new index
-	printArr(arr); // show us the partitioned array
+	//printArr(arr); // show us the partitioned array
 	return (pos + 1); // returns the number of elements smaller than the pivot
     }
     //--------------^  HELPER METHODS  ^--------------
@@ -117,13 +117,13 @@ public class QuickSort
     {
 	int[] test;
 	String out = "";
-	long avg;
-	int arrays, size = 10;
-	for ( arrays = 0; arrays < 51; arrays++) {
+	long time;
+	int arrays, size = 10; //change these variables to change number of arrays, size respectively
+	for ( arrays = 0; arrays < 1000; arrays++) {
 
 	    out = "";
-	    avg = 0;
-	    test = new int[size];
+	    time = 0;
+	    test = new int[arrays]; //also can be substituted for size
 	    for( int j = 0; j < test.length; j++ ) {
 		test[j] = (int)( 51 * Math.random());
 	    }
@@ -134,10 +134,12 @@ public class QuickSort
 	    qSort( test, 0, test.length -1);
 
 	    long end = System.nanoTime();
+	    
+	    printArr(test);
 
-	    avg = end - start;
-	    avg /= 50;
-	    out += avg + " \n";
+	    time = end - start;
+	    time /= 50;
+	    out += "Time was: " + time + " \n";
 
 	    out += "\b";
 	    System.out.println(out);   
