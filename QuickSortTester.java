@@ -30,8 +30,9 @@ public class QuickSortTester {
 
 	    long end = System.nanoTime(); //end time
 
-	    QuickSort.printArr(test);
-	    System.out.println("Array size: " + arrays);
+	    //QuickSort.printArr(test);
+	    System.out.println("Array size: ");
+	    System.out.println(arrays);
 
 	    time = end - start;
 	    time /= 500;
