@@ -27,5 +27,5 @@ and added a line of best fit.
 https://docs.google.com/spreadsheets/d/16idPKsyhuhsMqSbJXmsax1LFsTU0YChnYocJlhcwMkQ/edit?usp=sharing
 ![](img/resultGraph.PNG)
 
-###Data Analysis
-Out data has fluctuate with outliers, but based on the line of best fit, QuickSort runs in linear time.
+### Data Analysis
+Our data fluctuate with outliers, but based on the line of best fit, QuickSort runs in linear time.
