@@ -115,35 +115,6 @@ public class QuickSort
     //main method for testing
     public static void main( String[] args )
     {
-	int[] test;
-	String out = "";
-	long time;
-	int arrays, size = 10; //change these variables to change number of arrays, size respectively
-	for ( arrays = 0; arrays < 1000; arrays++) {
-
-	    out = "";
-	    time = 0;
-	    test = new int[arrays]; //also can be substituted for size
-	    for( int j = 0; j < test.length; j++ ) {
-		test[j] = (int)( 51 * Math.random());
-	    }
-	    shuffle(test);
-
-	    long start = System.nanoTime();
-
-	    qSort( test, 0, test.length -1);
-
-	    long end = System.nanoTime();
-	    
-	    printArr(test);
-
-	    time = end - start;
-	    time /= 50;
-	    out += "Time was: " + time + " \n";
-
-	    out += "\b";
-	    System.out.println(out);   
-	}
 	/*
 	//get-it-up-and-running, static test case:
 	int [] arr1 = {7,1,5,12,3};
