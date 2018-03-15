@@ -25,4 +25,4 @@ https://docs.google.com/spreadsheets/d/16idPKsyhuhsMqSbJXmsax1LFsTU0YChnYocJlhcw
 ![](img/resultGraph.PNG)
 
 ### Data Analysis
-
+Based on close observation of our graph, we see that the line of best fit is significantly below the actual concentration of data points. We can deduce that there is curvature to our data suggesting an O(nlogn) runtime for average data sets. 
