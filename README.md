@@ -17,7 +17,7 @@ the array in order to have a lower bound split and an upper bound split, and the
 sort an array with the least calls to QuickSort.
 
 ### Experiment Methodology
-First we randomly generate 40,000 arrays that will be sorted by QuickSort. QuickSort is called on each of the array, size of 28k elements + and the runtime of each call is saved to our csv file. With the data from the runtimes of QuickSort on each on each array, we graphed the results and added a line of best fit.
+First we randomly generate 40,000 arrays that will be sorted by QuickSort. QuickSort is called on each of the array, size of 28k elements plus, and the runtime of each call is saved to our csv file. With the data from the runtimes of QuickSort on each on each array, we graphed the results and added a line of best fit.
 
 ### Results
 -Spreadsheets w/Graph:
