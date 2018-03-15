@@ -5,8 +5,7 @@ Jackie Li
 <br>
 George Liang
 ### Hypothesis
-We hypothesize that the worst case scenario for QuickSort would be choosing a pivot that is the largest
-or the smallest element, which leads to the length of one side of the partition being 0. That means that successive calls
+We hypothesize that the worst case scenario for QuickSort would be choosing a pivot that is the upper or lower extreme element, which leads to the length of one side of the partition being 0. That means that successive calls
 leads to more length 0 parts, which doesn't utilize the power of partitioning in QuickSort leading to O(n^2) runtime. 
 The best case scenario for QuickSort would be choosing a pivot that is always the median element. Choosing an element that
 is always the median would lead to the greatest division of work and least calls to qsort which would result in O(n) runtime,
